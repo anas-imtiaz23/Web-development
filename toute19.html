@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligments</title>
+    <style>
+        body{
+            background-color: cyan;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 3px solid purple;
+            background-color: azure;
+            margin:  auto;
+            width: 900px;
+
+        }
+        .item{
+            background-color: chartreuse;
+            border: solid 4px sienna;
+
+        }
+        #fruit{
+            float: left;
+            width: 50%;
+            clear: left;
+        }
+        #stationary{
+            float:left;
+            width:50%;
+            clear: both;
+        }
+        #computer{
+            float: left;
+            width:50%;
+            clear: both;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <div id="firstpara" class="classpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur sint, rem cum quo quod sit ratione itaque iure dolore ab maiores, inventore, aliquid esse dolor facere expedita! Similique, eius.</div>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <div id="secondpara" class="classpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur sint, rem cum quo quod sit ratione itaque iure dolore ab maiores, inventore, aliquid esse dolor facere expedita! Similique, eius.</div>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <div id="thirdpara" class="classpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur sint, rem cum quo quod sit ratione itaque iure dolore ab maiores, inventore, aliquid esse dolor facere expedita! Similique, eius.</div>
+        </div>
+    </div>
+</body>
+</html>

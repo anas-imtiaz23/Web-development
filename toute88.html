@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The more informatio about the javascript</title>
+</head>
+<body>
+    <script>
+        let jsonobj={
+            name:"anas",
+            friend:"the more information i will discuss",
+            program:"i am studying in the bs cs",
+        }
+        console.log(jsonobj);
+        let myjsonstr=JSON.stringify(jsonobj);
+        console.log(myjsonstr);
+        myjsonstr=myjsonstr.replace('anas','tanoli');
+        console.log(myjsonstr);
+        newobj=JSON.parse(myjsonstr);
+        console.log(newobj);
+        let m=Math;
+        console.log(m);
+        console.log("the value of the e in the math is",Math.E);
+        console.log("the power of the 2 with 3 is",Math.pow(2,3));
+        // now we will discuss about the square root function in the math 
+        console.log("the square root of the 4 is ",Math.sqrt(4));
+        console.log("the square root of the 4 is ",Math.sqrt(56));
+        console.log("the square root of the 4 is ",Math.sqrt(64));
+        let a=1;
+        let b=100;
+        let r_100=a+(b-a)*Math.random();
+
+        console.log("the random number between 1 and 100 is",r_100);
+
+    </script>
+</body>
+</html>

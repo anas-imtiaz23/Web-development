@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The more selectors in css</title>
+    <style>
+        .container +p{
+            color: khaki;
+            border: 2px solid black;
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the first thing about selectors</h1>
+    <div class="container">
+        <p>this is the first paragraph</p>
+        <ul>
+            <li><p>this is the first paragraph inside ul</p></li>
+
+        </ul>
+
+    </div>
+    <p>this is the paragraph which is outside the container</p>
+</body>
+</html>

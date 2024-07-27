@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=0; i<4; i++){
+            console.log(i);
+        }
+        let anas={
+            name:"ahsan",
+            program:"Bs Cs",
+            years:"2 years",
+        }
+        for(let a in anas){
+            console.log(a);
+        }
+        let rehan={
+            name:"aryan",
+            name1:"ahsan",
+            "name 1 2":"zulm",
+        }
+        console.log(rehan['name 1 2']);
+        rehan['name2']="farman";
+        console.log(rehan.name2);
+        for(let name in rehan){
+            console.log("this is the name of the persons in the objects"+name+rehan['name']);
+        }
+        let muzaimal={
+            name:"hassan",
+            name1:"rehan",
+            name2:"brazil",
+        }
+        for(name in muzaimal){
+            console.log(name);
+        }
+    //   alert("this is an alert message");
+//    let deletepost=confirm("You really want to delete your post");
+//    if(deletepost){
+//     console.log("your post has been deleted successfully");
+//    }
+//    else{
+//     console.log("the post has not been deleted");
+//    console.log("you are not able to drive the car");
+//  //    }
+// let age=prompt("enter your age please");
+//  if (age<18){
+//  }
+//  if(age>=18){
+//     console.log("you are now able to drive the car");
+//  }
+let a=[1,2,3,"anas"];
+console.log(a);
+a.push("this has been pused inside the array");
+function greet(name){
+    console.log(name)
+}
+let name="anas";
+let name2="ahsan";
+greet(name);
+greet(name2);    </script>
+</body>kk
+</html>8

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the event listening in the java script</title>
+    <style>
+        #btn{
+            color: white;
+            background-color: red;
+            padding: 10px 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="para">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore nulla excepturi consequuntur quia placeat alias officiis eaque obcaecati minima pariatur error beatae officia earum debitis impedit maxime quasi rem a, itaque, repellat architecto ut optio natus? Vitae laboriosam sequi laudantium!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam quaerat repudiandae, expedita ex cupiditate, ipsam magnam, deserunt consequatur minima dolore corrupti quisquam nostrum quae. Fugit unde laboriosam labore voluptates dolorem minus, tenetur distinctio! Minima vero laborum, ut ipsa quae adipisci nam. Voluptatibus esse quidem autem, architecto quas quis, velit sequi natus nam atque assumenda fugiat doloribus? Saepe inventore, error nulla unde quod illo accusantium enim, sint ut, totam rerum quaerat at veniam quos vel soluta necessitatibus tenetur nisi eum obcaecati esse repellendus culpa! Blanditiis ipsum possimus dolorem doloremque, veniam ex error labore quaerat odit tempore maxime, quae nulla inventore. Eum quisquam repellendus officiis tenetur numquam ipsa ratione temporibus reiciendis veritatis fuga. Quam harum quibusdam quaerat minus tenetur sunt incidunt nihil ipsum cupiditate, molestias, corrupti rerum optio hic ducimus est quidem. Labore, officiis. Doloribus accusamus minus hic repellat, neque blanditiis maiores sunt. Optio rem deserunt maxime veritatis modi. Soluta aperiam in non enim reprehenderit dolor dolores officiis nam ullam, quasi saepe et animi beatae dolorem atque. Repellendus officiis repudiandae cumque eaque nam illum quaerat cupiditate iusto quia porro deleniti ut totam praesentium obcaecati, explicabo consequatur, voluptatem iure provident temporibus. Tempore quidem quos iure voluptatum a, perspiciatis veniam eveniet corporis beatae?
+            </p>
+        </div>
+        <div>
+            <button id="btn" onclick="hide()">Order Now</button>
+        </div>
+    </div>
+    <script>
+        //  let btn=document.getElementById('btn');
+        // console.log(btn);
+        let para=document.getElementById('para');
+        para.addEventListener('mouseover',function run(){
+            alert('mouse is inside the para')
+        });
+        // console.log(para);
+        function hide(){
+            let btn=document.getElementById('btn');
+            let para=document.getElementById('para');
+            para.style.dispaly='none';
+        }
+        para
+    </script>
+</body>
+</html>
